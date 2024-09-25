@@ -1,0 +1,1287 @@
+* {
+    font-family: "Poppins";
+    font-style: normal;
+}
+body{
+    margin: 0;
+    width: 1280px;
+}
+
+.nav_container{
+    position: absolute;
+    width: 1280px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #D9D9D9;
+}
+
+.nav_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_items a{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 119px;
+    height: 28px;
+    top: 11px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.about{
+    left: 461px;
+}
+
+.home{
+    left: 580px;
+}
+
+.contact{
+    left: 699px;
+}
+
+.nav_items a:hover{
+    color: grey;
+}
+
+.header_text{
+    position: absolute;
+    width: 374px;
+    height: 60px;
+    left: 453px;
+    top: 83px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.content_container{
+    width: 1029px;
+    height: 669px;
+    top: 141px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.backline_group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    isolation: isolate;
+
+    position: absolute;
+    width: 500px;
+    height: 392px;
+    left: 649px;
+    top: 191px;
+}
+
+.frame1{
+    width: 500px;
+    height: 392px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+
+.rectangle1{
+    position: absolute;
+    width: 500px;
+    height: 392px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4F4;
+    border-radius: 20px;
+}
+
+.frame2{
+    position: absolute;
+    width: 503px;
+    height: 392px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+}
+
+.usopp{
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 40px;
+    top: 0px;
+}
+
+.rectangle-usopp{
+    box-sizing: border-box;
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 0px;
+    top: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    border-radius: 20px;
+}
+
+.usopp-text{
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 92px;
+    top:40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.btn-usopp{
+    position: absolute;
+    width: 149px;
+    height: 22px;
+    left: 91px;
+    top: 95px;
+    background: #D8D6C1;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    border: #D8D6C1;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.btn-usopp:hover{
+    background-color: #000000;
+    color:#D8D6C1 ;
+}
+
+.usopp-img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 13px;
+    top: 52px;
+}
+
+.chopper{
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 40px;
+    top: 0px;
+    
+    
+}
+
+.rectangle-chopper{
+    box-sizing: border-box;
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 0px;
+    top: 148px;
+    background: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    border-radius: 20px;
+}
+
+.chopper-text{
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 92px;
+    top: 155px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.btn-chopper{
+    position: absolute;
+    width: 149px;
+    height: 22px;
+    left: 91px;
+    top: 210px;
+
+    background: #D8D6C1;
+    border-radius: 10px;
+    border: #D8D6C1;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.btn-chopper:hover{
+    background-color: #000000;
+    color: #D8D6C1;
+}
+
+.chopper-img{
+    position: absolute;
+    width: 70px;
+    height: 79px;
+    left: 13px;
+    top: 157px;
+
+}
+
+.robin{
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 40px;
+    top: 0px;
+
+
+}
+
+.rectangle-robin{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 423px;
+    height: 96px;
+    left: 0px;
+    top: 262px;
+
+    background: #FFFFFF;
+    border: 1px solid #D8D6C1;
+    border-radius: 20px;
+
+}
+
+.robin-text{
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 92px;
+    top: 270px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+
+
+
+}
+
+.btn-robin{
+    position: absolute;
+    width: 149px;
+    height: 22px;
+    left: 91px;
+    top: 321px;
+
+    background: #D8D6C1;
+    border-radius: 10px;
+    border: #D8D6C1;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 12px;
+    transition: 0.3s ease;
+}
+
+.btn-robin:hover{
+    background-color: #000000;
+    color: #D8D6C1;
+}
+
+.robin-img{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 13px;
+    top: 275px;
+}
+
+.fronline_group{
+    position: absolute;
+    width: 1029px;
+    height: 669px;
+    left: 120px;
+    top: 141px;
+}
+
+.latest_nakama{
+    position: absolute;
+    width: 500px;
+    height: 195px;
+    left: 649px;
+    top: 615px;
+}
+
+
+.lt_contain{
+    position: absolute;
+    width: 500px;
+    height: 194px;
+    left: 0px;
+    top: 0px;
+}
+
+.jinbe{
+    position: absolute;
+    width: 233px;
+    height: 117px;
+    left: 0px;
+    top: 0px;   
+}
+
+.rectangle-jinbe{
+    position: absolute;
+    width: 233px;
+    height: 117px;
+    left: 244px;
+    top: 47px;
+}
+
+.jinbe-text{
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 381px;
+    top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.btn-jinbe{
+
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 377px;
+    top: 95px;
+    background: #D8D6C1;
+    border-radius: 10px;
+    border: #D8D6C1;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.btn-jinbe:hover{
+    background-color: #000000;
+    color: #D8D6C1;
+}
+
+.jinbe-img{
+    position: absolute;
+    width: 124px;
+    height: 117px;
+    left: 244px;
+    top: 47px;
+}
+
+.brook{
+    position: absolute;
+    width: 223px;
+    height: 134px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-brook{
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 129px;
+    top: 95px;
+    background: #D8D6C1;
+    border-radius: 10px;
+}
+
+.brook-text{
+    position: absolute;
+    width: 82px;
+    height: 23px;
+    left: 129px;
+    top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.btn-brook{
+    position: absolute;
+    width: 100px;
+    height: 55px;
+    left: 129px;
+    top: 95px;
+    background: #D8D6C1;
+    border-radius: 10px;
+    border: #D8D6C1;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    transition: 0.3s ease;
+}
+
+.btn-brook:hover{
+    background-color: #000000;
+    color: #D8D6C1;
+}
+
+.brook-img{
+    position: absolute;
+    width: 120px;
+    height: 134px;
+    left: 6px;
+    top: 30px;
+}
+
+.rectangle-lt{
+    position: absolute;
+    width: 500px;
+    height: 180px;
+    left: 649px;
+    top: 615px;
+    background: #F2F2F2;
+    border-radius: 20px;
+    z-index: -1;
+    
+}
+
+.kuroashi{
+    position: absolute;
+    width: 230px;
+    height: 392px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-sanji{
+    position: absolute;
+    width: 230px;
+    height: 392px;
+    left: 392px;
+    top: 403px;
+    background: #E2F2FF;
+    border-radius: 20px;
+
+}
+
+.sanji-text{
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 440px;
+    top: 590px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.sanji-desc{
+    position: absolute;
+    width: 133px;
+    height: 54px;
+    left: 440px;
+    top: 640px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.sanji-img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 407px;
+    top: 411px;
+}
+
+.btn{
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 420px;
+    top: 722px;
+}
+
+.btn-sanji{
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 0px;
+    top: 0px;
+
+    background: #3279AF;
+    border-radius: 15px;
+    border: #3279AF;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.btn-sanji:hover{
+    background-color: white;
+    color: #3279AF;
+}
+
+.nami{
+
+    position: absolute;
+    width: 238px;
+    height: 184px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-nami{
+
+    position: absolute;
+    width: 235px;
+    height: 180px;
+    left: 131px;
+    top: 615px;
+
+    background: #FFCED7;
+    border-radius: 20px;
+
+}
+
+.nami-img{
+    position: absolute;
+    width: 238px;
+    height: 184px;
+    left: 129px;
+    top: 611px;
+
+}
+
+.btn-nami{
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 162px;
+    top: 750px;
+
+    background: #FF5573;
+    border-radius: 15px;
+    border:#FF5573 ;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.btn-nami:hover{
+    background-color: white;
+    color:#FF5573;
+}
+
+.zoro{
+    position: absolute;
+    width: 239px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-zoro{
+    position: absolute;
+    width: 235px;
+    height: 180px;
+    left: 131px;
+    top: 403px;
+
+    background: #E1FFDC;
+    border-radius: 20px;
+
+}
+
+.zoro-img{
+    position: absolute;
+    width: 239px;
+    height: 178px;
+    left: 129px;
+    top: 405px;
+}
+
+.btn-zoro{
+    position: absolute;
+    width: 173px;
+    height: 37px;
+    left: 162px;
+    top: 538px;
+
+    background: #7EB782;
+    border-radius: 15px;
+    border: #7EB782;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.btn-zoro:hover{
+    background-color: white;
+    color: #7EB782;
+}
+
+.luffy{
+    position: absolute;
+    width: 501px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+}
+
+.rectangle-luffy{
+    position: absolute;
+    width: 490px;
+    height: 180px;
+    left: 131px;
+    top: 191px;
+
+    background: #FFF4DC;
+    border-radius: 20px;
+}
+
+.luffy-text{
+
+    position: absolute;
+    width: 263px;
+    height: 47px;
+    left: 335px;
+    top: 170px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.luffy-desc{
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 347px;
+    top: 240px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.luffy-img{
+
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    left: 120px;
+    top: 141px;
+}
+
+.btn-luffy{
+    position: absolute;
+    width: 240px;
+    height: 37px;
+    left: 347px;
+    top: 315px;
+
+    background: #E29A00;
+    border-radius: 15px;
+    border: #E29A00;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.btn-luffy:hover{
+    background-color: white;
+    color: #E29A00;
+}
+
+@media screen and (max-width:480px) and (min-width: 425px)  {
+   body{
+    scroll-behavior: smooth;
+   }
+    .nav_container{
+        position: fixed;
+        width: 425px;
+        height: 70px;
+        left: 0px;
+        top: 0px;
+
+    }
+    
+    .nav_items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav_items a{
+        position: absolute;
+        color: black;
+        text-decoration: none;
+        top: 20px;
+        text-align: center;
+        transition: 0.3s ease;
+    }
+    
+    .about{
+        position: absolute;
+        width: 107px;
+        height: 21px;
+        left: 44px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .home{
+        position: absolute;
+        width: 70px;
+        height: 21px;
+        left: 170px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .contact{
+        position: absolute;
+        width: 81px;
+        height: 21px;
+        left: 276px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+    }
+ 
+    .header_text{
+        position: absolute;
+        width: 374px;
+        height: 47px;
+        left: 26px;
+        top: 70px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .luffy{
+        position: absolute;
+        width: 289px;
+        height: 361px;
+        left: 0px;
+        top: 40px;
+    }
+    .rectangle-luffy{
+        position: absolute;
+        width: 289px;
+        height: 299px;
+        left: 69px;
+        top: 180px;
+        background: #FFF4DC;
+        border-radius: 20px;
+
+    }
+    .luffy-text{
+        position: absolute;
+        width: 182px;
+        height: 47px;
+        left: 122px;
+        top: 375px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+    .luffy-desc{
+        position: absolute;
+        width: 169px;
+        height: 21px;
+        left: 128px;
+        top: 422px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        color: #000000;
+    }
+    .luffy-img{
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 93px;
+        top: 118px;
+    }
+    .btn-luffy{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 107.06px;
+        top: 345.75px;
+        background: #E29A00;
+        border-radius: 15px;
+        border: #E29A00;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .zoro{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 0px;
+        top: 40px;
+
+
+    }
+    .rectangle-zoro{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 69px;
+        top: 508px;
+        background: #E1FFDC;
+        border-radius: 20px;
+    }
+    .zoro-img{
+        position: absolute;
+        width: 275px;
+        height: 217px;
+        left: 75px;
+        top: 512px;
+    }
+    .btn-zoro{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 107.06px;
+        top: 673.75px;
+        background: #7EB782;
+        border-radius: 15px;
+        border: #7EB782;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .nami{
+        position: absolute;
+        width: 289px;
+        height: 240px;
+        left: 0px;
+        top: 40px;
+    }
+    .rectangle-nami{
+        position: absolute;
+        width: 289px;
+        height: 239.85px;
+        left: 68px;
+        top: 758px;
+        background: #FFCED7;
+        border-radius: 20px;
+    }
+    .nami-img{
+        position: absolute;
+        width: 275px;
+        height: 213px;
+        left: 75px;
+        top: 785px;
+    }
+    .btn-nami{
+        position: absolute;
+        width: 212.75px;
+        height: 49.3px;
+        left: 106.12px;
+        top: 937.89px;
+        background: #FF5573;
+        border-radius: 15px;
+        border:#FF5573 ;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .kuroashi{
+        position: absolute;
+        width: 289px;
+        height: 373px;
+        left: 0px;
+        top: 0px;
+    }
+    .rectangle-sanji{
+        position: absolute;
+        width: 289px;
+        height: 314px;
+        left: 68px;
+        top: 1094px;
+        background: #E2F2FF;
+        border-radius: 20px;
+    }
+    .sanji-text{
+        position: absolute;
+        width: 133px;
+        height: 47px;
+        left: 146px;
+        top: 1290px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+    .sanji-desc{
+        position: absolute;
+        width: 169px;
+        height: 21px;
+        left: 127px;
+        top: 1338px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        color: #000000;
+    }
+    .sanji-img{
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        left: 97px;
+        top: 1046px;
+    }
+    .btn{
+        position: absolute;
+        width: 275px;
+        height: 275px;
+        left: 0px;
+        top: 0px;
+    }
+    .btn-sanji{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 106.06px;
+        top: 1259.75px;
+        background: #3279AF;
+        border-radius: 15px;
+        border: #3279AF;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .rectangle1{
+        display: none;
+    }
+
+    .usopp{
+        position: absolute;
+        width: 288.53px;
+        height: 245px;
+        left: -650px;
+        top: -195px;
+    }
+    .rectangle-usopp{
+        /* Rectangle 3 */
+
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 68px;
+        top: 1442px;
+
+        background: #E9E8E2;
+        border-radius: 20px;
+
+    }
+    .usopp-img{
+        position: absolute;
+        width: 241px;
+        height: 245px;
+        left: 92px;
+        top: 1436px;
+    }
+    .btn-usopp{
+        
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 106.06px;
+        top: 1607.75px;
+
+        background: #CAC8B3;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        border: #D8D6C1;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .usopp-text{
+        display: none;
+    }
+
+    .chopper{
+        position: absolute;
+        width: 288.53px;
+        height: 240px;
+        left: -650px;
+        top: -195px;
+    }
+    .rectangle-chopper{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 68px;
+        top: 1699px;
+        background: #E9E8E2;
+        border-radius: 20px;    
+    }
+    .btn-chopper{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 106.06px;
+        top: 1864.75px;
+        background: #CAC8B3;
+        border-radius: 15px;
+        border: #D8D6C1;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .chopper-img{
+        position: absolute;
+        width: 216px;
+        height: 240px;
+        left: 104px;
+        top: 1693px;
+    }
+    .chopper-text{
+        display: none;
+    }
+
+    .robin{
+        position: absolute;
+        width: 288.53px;
+        height: 230px;
+        left: -650px;
+        top: -195px;
+    }
+    .rectangle-robin{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 68px;
+        top: 1955px;
+        background: #E9E8E2;
+        border-radius: 20px;
+    }
+    .btn-robin{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 106.06px;
+        top: 2120.75px;
+        background: #CAC8B3;
+        border-radius: 15px;
+        border: #D8D6C1;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 1;
+
+    }
+    .robin-img{
+        position: absolute;
+        width: 213px;
+        height: 213px;
+        left: 105px;
+        top: 1965px;
+    }
+    .robin-text{
+        display: none;
+    }
+
+    .rectangle-lt{
+        display: none;
+    }
+
+    .lt_contain{
+        position: absolute;
+        display: flex;
+        top: -620px;
+        left: -650px;
+    }
+
+    .brook{
+        position: absolute;
+        width: 288.53px;
+        height: 226px;
+        left: 0px;
+        top: 0px;
+        
+    }
+    .rectangle-brook{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 69px;
+        top: 2212px;
+        background: #FFDBC5;
+        border-radius: 20px;
+    }
+    .btn-brook{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 107.06px;
+        top: 2377.75px;
+        background: #E36415;
+        border-radius: 15px;
+        border: #E36415;
+        text-align: center;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .brook-img{
+        position: absolute;
+        width: 200px;
+        height: 222px;
+        left: 112px;
+        top: 2216px;
+    }
+    .brook-text{
+        display: none;
+    }
+    
+    .jinbe{
+        position: absolute;
+        width: 288.53px;
+        height: 235px;
+        left: 0px;
+        top: 0px;
+    }
+    .rectangle-jinbe{
+        position: absolute;
+        width: 288.53px;
+        height: 221px;
+        left: 68px;
+        top: 2469px;
+        background: #8FC5ED;
+        border-radius: 20px;
+    }
+    .btn-jinbe{
+        position: absolute;
+        width: 212.41px;
+        height: 45.43px;
+        left: 106.06px;
+        top: 2634.75px;
+        background: #275E87;
+        border-radius: 15px;
+        text-align: center;
+        border: #275E87;
+        color: white;
+        font-weight: 500;
+        font-size: 20px;
+        z-index: 1;
+    }
+    .jinbe-img{
+        position: absolute;
+        width: 240px;
+        height: 225px;
+        left: 93px;
+        top: 2479px;
+    }
+    .jinbe-text{
+        display: none;
+    }
+}
